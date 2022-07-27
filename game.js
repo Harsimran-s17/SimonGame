@@ -72,11 +72,12 @@ function checkAnswer(currentlevel){
 
         $("body").addClass("game-over");
         
-
+        alert("Your Score: " + level);
+        
         setTimeout(function() {
             $("body").removeClass("game-over")
         }, 200);
-
+        
         starOver();
     }
 
